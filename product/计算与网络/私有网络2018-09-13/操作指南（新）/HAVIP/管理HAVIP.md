@@ -24,7 +24,7 @@ HAVIP 用于配合第三方 HA 软件使用，与 CVM 的绑定与解绑不在�
 ### 操作示例
 HA软件指定VIP时（配置文件），填入您创建的HAVIP即可，示例如下：
 ```plaintext
-vrrp_instanceVI_1 {
+vrrp_instance VI_1 {
 #注意主备参数选择
     state MASTER               #设置初始状态为"备"。
     interface eth0             #设置绑定 VIP 的网卡，例如 eth0
